@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Color Guess</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+  </head>
+  <body class="body" id="bgColor">
+    <div class="container text-center mt-5">
+      <div class="row">
+        <h1>Guess the color!</h1>
+      </div>
+      <div class="row">
+        <h3 id="colorCode"></h3>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 text-md-end text-xs-center text-sm-center">
+          <button id="1" type="button" class="colorButton" onclick="checkResult(this.id)" ></button>
+          <button id="2" type="button" class="colorButton" onclick="checkResult(this.id)"></button>
+          <button id="3" type="button" class="colorButton" onclick="checkResult(this.id)"></button>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 text-md-start text-xs-center text-sm-center">
+          <button id="4" type="button" class="colorButton" onclick="checkResult(this.id)"></button>
+          <button id="5" type="button" class="colorButton" onclick="checkResult(this.id)"></button>
+          <button id="6" type="button" class="colorButton" onclick="checkResult(this.id)"></button>
+        </div>
+        <div class="row h-25">
+          <div class="col-12 text-center">
+            <h3 id='result'></h3>
+          </div>
+          <div class="col-12 text-center">
+            <button type="button" class="btn btn-primary" onclick="setRandomColor()">
+              Try Again
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

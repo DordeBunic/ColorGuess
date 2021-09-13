@@ -1,0 +1,28 @@
+.body{
+    background: #C9CCD3;
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.container{
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, .25);  
+    backdrop-filter: blur(5px);
+}
+.colorButton{
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    box-shadow: none;
+    border:none;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+h3{
+    height: 50px;
+}
+.btn{
+    margin-bottom: 25px;
+}
